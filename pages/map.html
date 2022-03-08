@@ -2,14 +2,15 @@
 <html>
     <head>
         <meta name = “viewport” content = “width=device-width,initial-scale=1.0">
-        <title class="title">Interactive Map</title>
+        <title class="title">Chosen Locations</title>
             <link rel="stylesheet" href=".//jquery-jvectormap-2.0.5.css" type="text/css" media="screen" />
                 <script src=".//jquery-1.8.2.js"></script>
-                <script src=".//script.js"></script>
+                <script src=".//map.js"></script>
                 <script src=".//jquery-jvectormap-2.0.5.min.js"></script>
                 <script src=".//jquery-jvectormap-world-merc.js"></script>
                 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" >
     </head>
+    <div class="background">
     <nav>
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -21,20 +22,26 @@
         
         <div>
             <div class="responsive">
-                <span class="container-1" id=btn-menu onclick="openNav()">Menu</span>
                 <h1 class="header-text1">LET US SHOW YOU THE BEST LOCATIONS FOR 2022</h1>
-                <div id="world-map-markers"></div>
+                <div class="menu" onclick="openNav()">
+                    <div class="line1"></div>
+                    <div class="line1"></div>
+                    <div class="line1"></div>                
+                </div>
             </div>
         </div>
     </nav>
 
     <body>
-            <div class="parallax-2"></div>
-            <div class="container-2"></div>
+            <div id="world-map-markers"></div>
+            <div class="container-2">
+                <div>
+                    <h2 class="header-text2">Our Recommended Wellness Resorts</h2>
+                </div>
 
-
-
+            </div>
     </body>
+    </div>
 
 
 
