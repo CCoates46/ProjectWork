@@ -3,11 +3,12 @@ svg {
 }
 
 nav {
-    background-color: rgb(28, 194, 169);
+    background-color: rgb(102, 100, 100);
+    width: 1327px;
 }
 
 .background {
-    background-color: rgb(28, 194, 169);
+    background-color: rgb(102, 100, 100);
 }
 .sidenav {
     height: 100%; /* 100% Full-height */
@@ -16,7 +17,7 @@ nav {
     z-index: 1; /* Stay on top */
     top: 0;
     left: 0;
-    background-color: rgb(153, 237, 207);
+    background-color: black;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -79,7 +80,7 @@ nav {
 
 .header-text1 {
     
-    color: #f0f7f4;
+    color: white;
     font-family: Raleway;
     font-size: 40px; 
     font-weight: bold;
@@ -93,22 +94,6 @@ nav {
     transform: translate(-50%, -50%);
     mix-blend-mode: screen;
 }
-.container-1 {
-
-    color: #dff5eb;
-    font-size: 20px; 
-    font-weight: bolder;
-    margin: 0 auto;
-    padding: 1px;
-    width: 85%;
-    text-align: justify;
-    position: absolute;
-    top: 19%;
-    left: 12%;
-    transform: translate(-50%, -50%);
-    height: 200px;
-    font-family: Raleway;
-      }
 
 .container-2 {
     font-weight: bolder;
@@ -131,7 +116,8 @@ nav {
     padding-right: 21%;
     padding-bottom: 5%;
     padding-top: 2%;
-    background-color: rgb(28, 194, 169);
+    background-color: rgb(102, 100, 100);
+    flex-wrap: wrap;
 }
 .header-text2 {
     color: #18a860;

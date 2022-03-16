@@ -11,8 +11,8 @@
       markersSelectable: true,
       markerStyle: {
         initial: {
-          fill: '#eb6b15',
-          stroke: '#e3eb15'
+          fill: 'blue',
+          stroke: 'yellow'
         },
       },
       backgroundColor: '#black',
