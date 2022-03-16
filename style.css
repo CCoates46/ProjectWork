@@ -201,10 +201,15 @@ div.gallery-card {
   border: 1px solid #ccc;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align:center;
+  font-family: Raleway;
+  width: 100%;
+  height: auto;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 div.gallery-card:hover {
-  border: 1px solid #777
+  border: 3px solid #777
 }
 
 div.gallery-card img {
