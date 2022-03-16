@@ -3,6 +3,7 @@
     <head>
         <meta name = “viewport” content = “width=device-width,initial-scale=1.0">
         <title class="title">Chosen Locations</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3">
             <link rel="stylesheet" href=".//jquery-jvectormap-2.0.5.css" type="text/css" />
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" >
     </head>
@@ -10,14 +11,16 @@
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="../index-main.html">About</a>
-            <a href="./map.html">Chosen Locations</a>
-            <a href="#">Destinations</a>
-            <a href="#">Contact</a>
+            <a href="./map.html">Top Locations</a>
+            <a href="#">Bali</a>
+            <a href="#">Greece</a>
+            <a href="#">Tuscany</a>
+            <a href="#">FAQs</a>
         </div>
         
         <div>
             <div class="responsive">
-                <h1 class="header-text1">LET US SHOW YOU THE BEST LOCATIONS FOR 2022</h1>
+                <h1 class="header-text1">THE TOP WELLNESS LOCATIONS FOR 2022</h1>
                 <div class="menu" onclick="openNav()">
                     <div class="line1"></div>
                     <div class="line1"></div>
@@ -28,24 +31,78 @@
     </nav>
 
     <body>
-            <div class="container"></div>
             <div id="world-map-markers"></div>
-            <div class="container-2">
-                <div>
-                    <h2 class="header-text2">Our Recommended Wellness Resorts</h2>
-                </div>
 
+            <h2 class="header-text2">Other Recommended locations</h2>
+            <li class="header-text3">Costa Rica</li>
+
+            <p class="text-para">With tropical rainforests, an abundance of wildlife and 
+            pristine beaches, it's no wonder that eco-pioneering Costa Rica has been recognised as 
+            one of the happiest and most peaceful countries in the world. Locals really do live by 
+            the phrase 'Pura Vida' (the good life), which means channelling a super-healthy 
+            lifestyle, from eating well to immersing themselves in nature. For visitors looking 
+            for adventure, it's a dreamy destination where you can swap technology and social 
+            media for hikes through the jungle, white-water rafting on the rivers and kayaking 
+            in the year-round warm sea before flopping on sun-drenched sand.</p>
+            <p class="text-para">Early-bird surfers are up at dawn to catch the waves. Intrepid
+             naturalists lead jungle treks, pointing out sloths and howler monkeys in the trees.
+             And a variety of other experts, from yoga masters to botanists, will pass on their 
+             knowledge. Plus, there are vast national parks to explore and smile-inducing spas
+             where treatments are aimed at soothing minds as much as bodies. Wellness and wellbeing
+             is taken to a higher level, making Costa Rica the ideal destination to reboot and fully
+             recharge.</p> 
+             <p class="quote">visitcostarica.com</p>
+
+             <li class="header-text3">Sri Lanka</li>
+
+             <p class="text-para">Sri Lanka’s star has certainly risen in recent years.  
+            This beautiful island is a great choice for a spa retreat or fitness holiday that 
+            combines treatments and exercise with the chance to explore too.  There are golden 
+            beaches, historical temples, tea plantations and elephants to see in between relaxing.
+            Yoga holidays are popular here with outdoor classes to enjoy the views and sunshine. 
+            Plus Ayurveda retreats which offer authentic, personalised treatments to restore inner
+            balance and wellbeing.  There are luxury spa breaks for couples or solo friendly holistic 
+            retreats – there really is something for everyone, no matter what your goal.  
+            So head to Sri Lanka and come back feeling nurtured and culturally enriched.</p> 
+
+          <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+             <div class="numbertext">1 / 5</div>
+                <img src="../images/Costa Rica.jpeg" style="width:100%">
+                <div class="text">Beautiful Costa Rica</div>
             </div>
+  
+            <div class="mySlides fade">
+            <div class="numbertext">2 / 2</div>
+                <img src="../images/sri lanka - location.webp" style="width:100%">
+                <div class="text">Serene Sri Lanka</div>
+            </div>
+  
+                
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+    </div>  
+  </div>
+
+          
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
             <script src=".//jquery-1.8.2.js"></script>
             <script src=".//map.js"></script>
             <script src=".//jquery-jvectormap-2.0.5.min.js"></script>
             <script src=".//jquery-jvectormap-world-merc.js"></script>
     </body>
-    </div>
-
-
-
-
-
+    <footer>
+        <p class="footer">Built by 🖤 Code First Girls </p>
+    </footer>
 </html>

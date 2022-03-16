@@ -11,7 +11,7 @@ svg {
     z-index: 1; /* Stay on top */
     top: 0;
     left: 0;
-    background-color: black; 
+    background-color: rgb(83, 223, 188); 
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -164,8 +164,8 @@ svg {
         font-family: Raleway;
         text-align: center;
         justify-content:center;
-        color:white;
-        background-color: black;
+        color: black;
+        background-color: rgb(57, 204, 147);
         text-decoration: none;
         position:fixed;
         margin: 2px 2px;
@@ -245,7 +245,7 @@ div.gallery-card img {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: black;
+  background-color: rgb(57, 204, 147);
   text-align: center;
   cursor: pointer;
   width: 100%;
