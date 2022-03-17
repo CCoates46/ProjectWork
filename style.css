@@ -255,6 +255,7 @@ div.gallery-card img {
   cursor: pointer;
   width: 100%;
   flex-wrap: wrap;
+  text-decoration: none;
 }
 
 .button:hover {
