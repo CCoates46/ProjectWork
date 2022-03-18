@@ -14,13 +14,14 @@
     .line1 {
       width: 35px;
       height: 5px;
-      background-color: black;
+      background-color: rgba(0, 0, 0, 0.995);
       padding-left: 0px;
       margin: 6px 0 0px 2px;
     }
   
     .menu {
-      margin: 25px;
+      margin-left: 25px;
+      margin-top: 15px;
     }
   
   /* The navigation menu links */
@@ -58,6 +59,11 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
     }
+
+  .container {
+    padding: 1px;
+    height: 1px;
+  }
 
 /* header */
 header {
