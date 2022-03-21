@@ -1,0 +1,417 @@
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: rgb(83, 223, 188); 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+
+    .line1 {
+      width: 35px;
+      height: 5px;
+      background-color: grey;
+      padding-left: 5px;
+      margin: 6px 0 0px 2px;
+    }
+  
+    .menu {
+      margin: 25px;
+    }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+    }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+    }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    }
+
+
+/* text */
+h1 {
+    font-family: Staatliches;
+    font-size: 120px;
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #49a5a0;
+    text-decoration-thickness: 8px;
+    text-underline-offset: 15px;
+}
+
+h2 {
+    font-family: Staatliches;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 50px;
+    color: #3b3b3b;
+    text-align: center;
+}
+
+h3 {
+    font-family: Staatliches;
+    font-size: 30px;
+}
+
+h4 {
+    font-family: Staatliches;
+    font-size: 20px;
+}
+
+p {
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+summary {
+    font-family: Staatliches;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.title {
+    background-image: linear-gradient(#49a5a0, #49a5a0);
+    background-repeat: no-repeat;
+    background-size: 0%, 100%;
+    background-position-x: right;
+
+    transition: background-size 500ms;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #49a5a0;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 15px;
+}
+
+.title:hover {
+    background-size: 100%, 100%;
+    background-position-x: left;
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #ffffff;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 15px;
+}
+
+
+
+
+/* header */
+header {
+    background-image: url("../images/Bali1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 200px;
+    text-align: center;
+}
+
+
+
+
+
+/* about info */
+
+.about {
+    background-color: #fff;
+    padding: 0% 1% 0% 1%;
+    text-align: center;
+    line-height: 2.6;
+    margin: 5% 10% 5% 10%;
+}
+
+
+
+/* things to do */
+
+
+.things {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 10px 10px; 
+    margin: 0% 10% 5% 10%;
+    padding: 10px, 200px, 10px, 200px;
+    grid-template-areas: 
+"Featured Second"
+"Featured Third"; 
+}
+
+.Featured { 
+    grid-area: Featured; 
+    background-color: #69bcb8;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.Second { 
+    grid-area: Second; 
+        background-color: #abddd7;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 20px;
+}
+
+.Third { 
+    grid-area: Third; 
+    background-color: #abddd7;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* hotel */
+
+.hotel {
+    padding: 10px;
+    text-align: center;
+    margin: 5% 10% 5% 10%;
+}
+
+.stripes {
+    background-image: repeating-linear-gradient(
+        -45deg, 
+        #69bcb8 0px,
+        #69bcb8 20px,
+        #abddd7 20px,
+        #abddd7 40px
+    );
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+max-width: 1000px;
+position: relative;
+margin: 5% 10% 0% 10%;
+border-radius: 10px;
+}
+
+/* Hide the images by default */
+.mySlides {
+display: none;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+font-family: Open Sans;
+font-size: 14px;
+line-height: 1.6;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+color: #3b3b3b;
+font-size: 14px;
+padding: 8px 12px;
+position: absolute;
+font-family: Open Sans;
+top: 5px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+/* traveller photos */
+
+.parent {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    margin: 0% 10% 5% 10%;
+}
+
+
+.div1 { grid-area: 1 / 1 / 2 / 2; 
+    background-color: #abddd7;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Open Sans;
+}
+
+.div2 { grid-area: 1 / 2 / 2 / 3; 
+    background-color: #abddd7;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Open Sans;
+}
+
+.div3 { grid-area: 1 / 3 / 2 / 4; 
+    background-color: #abddd7;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Open Sans;
+}
+
+
+
+/* main body */
+
+body {
+    margin: 0;
+    color: #3b3b3b
+}
+
+
+/* main body */
+
+footer {
+    text-align: center;
+    background-color: #69bcb8;
+    height: auto;
+    font-family: Staatliches;
+    font-size: 10px;
+    margin: 0;
+    padding: 25px;
+    text-align: center;
+}
+
+/* Responsive design */
+
+@media screen and (max-width: 768px) {
+    .responsive {
+        width: 49.9999%;
+        margin: 6px 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+        margin: 6px 0;
+    }
+}
+
+
+/*
+@media (orientation: portrait) {
+    body {
+        background-color: #fff;
+        color: #3b3b3b;
+    }
+}
+
+@media (orientation: landscape) {
+    body {
+        background-color: #000;
+        color: #fff;
+    }
+}
+*/
+
+/* to test but couldnt get it to work 
+.card {
+    overflow: hidden;
+    position: relative;
+}
+
+
+.card > img {
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+    transition: transform 200ms;
+}
+
+.card:hover > img {
+    transform: scale(1.05);
+}
+
+*/

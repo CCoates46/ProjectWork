@@ -1,0 +1,191 @@
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: rgb(83, 223, 188); 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+
+  .line1 {
+    width: 35px;
+    height: 5px;
+    background-color: grey;
+    padding-left: 0px;
+    margin: 6px 0 0px 2px;
+  }
+
+  .menu {
+    margin-left: 25px;
+  }
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  }
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+  }
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  }
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+  }
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  }
+
+  .container {
+    height: 30px;
+    margin-left: 1px;
+  }
+
+header {
+    background-image: url("../images/top_pic_large.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 200px;
+    text-align: center;
+}
+
+h1 {
+    font-family: calibri;
+    font-size: 120px;
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-style: dotted;  
+    text-decoration-color: #fff;
+    text-decoration-thickness: 8px;
+    text-underline-offset: 15px;
+}
+
+
+.intro {
+    font-family: calibri;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+p {
+    font-family: calibri;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 2;
+}
+
+span {
+    font-family: calibri;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: rgb(62, 137, 160);
+}
+
+
+h2 {
+    font-family: calibri;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 50px;
+    color: rgb(62, 137, 160);
+    text-align: center;
+}
+
+
+#img-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: auto;
+  }
+  
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+    
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 10px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+.about {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.footer {
+  padding:5%;
+  font-family: Raleway;
+  color:#395810;
+}
+
+

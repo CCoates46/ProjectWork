@@ -14,7 +14,7 @@
     .line1 {
       width: 35px;
       height: 5px;
-      background-color: rgba(0, 0, 0, 0.995);
+      background-color: grey;
       padding-left: 0px;
       margin: 6px 0 0px 2px;
     }
