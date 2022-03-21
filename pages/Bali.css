@@ -59,6 +59,10 @@
     .sidenav a {font-size: 18px;}
     }
 
+.container-2 {
+    height: 35px;
+}
+
 
 /* text */
 h1 {
@@ -373,6 +377,12 @@ footer {
         margin: 6px 0;
     }
 }
+
+.footer {
+    padding:5%;
+    font-family: Raleway;
+    color:#395810;
+  }
 
 
 /*
